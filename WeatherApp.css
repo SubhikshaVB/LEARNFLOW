@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://www.mactrast.com/wp-content/uploads/2020/04/thunderstorm-3430471_1920-800x457.jpg");
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #4c76774b;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.699);
+}
+  
+
+#search-history {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    padding-right: 20px;
+    max-width: 400px;
+
+
+}
+.history-card {
+    background-color: #4c76774b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 27px; 
+    padding-right: 70px;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    text-align: left;
+}
+
+.history-card :hover{
+    transform: scale(1.1);
+    background-color: #6cdfdf;
+    color: #0e1111;
+    box-shadow: 0 5px 15px rgba(19, 220, 210, 0.71);
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#history-list li:hover {
+    text-decoration: underline; 
+}
+
+
+.list_content ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px 0;
+    list-style-type: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.list_content ul li {
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 10%;
+    transition: all 0.3s ease-in;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list_content ul li:hover {
+    transform: scale(1.1);
+    background-color: #6cdfdf;
+    color: #0e1111;
+    box-shadow: 0 5px 15px rgba(19, 220, 210, 0.616);
+    cursor: pointer;
+}
+
+.list_content ul li img {
+    width: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    color:aqua;
+}
+
+form {
+    margin-top: 20px;
+}
+ 
+form ::placeholder{
+    color: bisque;
+}
+input {
+    padding: 10px;
+    width: 70%;
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    color:gold;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 16px;
+    background: transparent;
+    color:bisque;
+    border: none;
+    cursor: pointer;
+    border:3px solid black;
+    border-radius: 5px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#weather-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#weather-info p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Arial", sans-serif; /* Change "Arial" to your desired font-family */
+    font-size: 20px;
+    font-weight: bold;
+    color:chartreuse;
+    text-transform: capitalize;
+    
+}
+
+#weather-info h2 {
+    color:coral; /
+}
